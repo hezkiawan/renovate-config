@@ -3,7 +3,7 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
   "draftPR": true,
-  "recreateWhen": "always",
+  "recreateWhen": "auto",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "packageRules": [
