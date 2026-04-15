@@ -5,5 +5,11 @@
   "draftPR": true,
   "recreateWhen": "always",
   "prHourlyLimit": 0,
-  "prConcurrentLimit": 0
+  "prConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
+      "groupName": "React Ecosystem"
+    }
+  ]
 }
