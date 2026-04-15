@@ -2,5 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
-  "draftPR": true
+  "draftPR": true,
+  "recreateWhen": "always",
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0
 }
