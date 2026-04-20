@@ -6,22 +6,16 @@
   "recreateWhen": "auto",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
+  "ignoreDeps": [
+    "flutter",
+    "flutter_test",
+    "dev.flutter.flutter-plugin-loader",
+    "dev.flutter.flutter-plugin-loader:dev.flutter.flutter-plugin-loader.gradle.plugin"
+  ],
   "packageRules": [
-  {
-    "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
-    "groupName": "React Ecosystem"
-  },
-  {
-    "matchDatasources": ["pub"],
-    "matchPackageNames": ["flutter", "flutter_test"],
-    "enabled": false
-  },
-  {
-    "matchPackageNames": [
-      "dev.flutter.flutter-plugin-loader",
-      "dev.flutter.flutter-plugin-loader:dev.flutter.flutter-plugin-loader.gradle.plugin"
-    ],
-    "enabled": false
-  }
-]
+    {
+      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
+      "groupName": "React Ecosystem"
+    }
+  ]
 }
