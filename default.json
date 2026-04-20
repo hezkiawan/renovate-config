@@ -6,11 +6,13 @@
   "recreateWhen": "auto",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "ignoreDeps": [
-    "flutter",
-    "flutter_test",
-    "dev.flutter.flutter-plugin-loader",
-    "dev.flutter.flutter-plugin-loader:dev.flutter.flutter-plugin-loader.gradle.plugin"
+  "ignorePaths": [
+    "**/android/**",
+    "**/ios/**",
+    "**/macos/**",
+    "**/linux/**",
+    "**/windows/**",
+    "**/web/**"
   ],
   "packageRules": [
     {
