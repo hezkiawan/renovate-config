@@ -1,8 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Asia/Jakarta",
+  "schedule": [
+    "* 22-23,0-4 * * 1-5",
+    "* * * * 0,6"
+  ],
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
-  "schedule": ["after 10pm and before 5am every weekday", "on the weekend"],
   "draftPR": true,
   "recreateWhen": "auto",
   "prHourlyLimit": 0,
